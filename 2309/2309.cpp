@@ -39,5 +39,6 @@ int main() {
     combination(a, 9, 7, q);
     sort(q->begin(), q->end());
     for(int i = 0; i < q->size(); i++) cout << q->at(i) << "\n";
+    free(q);
     return 0;
 }
